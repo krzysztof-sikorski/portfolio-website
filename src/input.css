@@ -1,3 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply md:tw-container tw-mx-auto tw-font-mono tw-text-emerald-500 tw-bg-neutral-900;
+}
+
+p, li {
+  @apply tw-my-2;
+}
+
+a {
+  @apply tw-text-amber-300 tw-underline tw-decoration-dotted;
+}
+
+a:hover {
+  @apply tw-outline-dotted tw-outline-offset-4;
+}
+
+a[rel="external"]:after {
+  content: ' ↗';
+}
+
+code {
+  @apply tw-text-indigo-300 tw-bg-black tw-underline tw-decoration-dotted;
+}
+
+h1 {
+  @apply tw-my-8 tw-text-2xl tw-font-bold;
+}
+
+h2 {
+  @apply tw-my-4 tw-text-xl tw-font-bold;
+}
+
+header, main, footer {
+  @apply tw-my-8;
+}
+
+header > h1, main > h1, footer > h1 {
+  @apply tw-my-0 tw-text-4xl;
+}
+
+header p:first-of-type {
+  @apply tw-text-2xl tw-italic;
+}
+
+header em.name {
+  @apply tw-text-xl;
+}
+
+main > section {
+  @apply tw-grid tw-grid-cols-3 tw-gap-16;
+}
+
+footer li {
+  @apply tw-list-disc tw-list-inside;
+}
