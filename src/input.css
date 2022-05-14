@@ -54,6 +54,10 @@ main > section {
   @apply md:tw-grid md:tw-gap-8 lg:tw-gap-16 md:tw-grid-cols-1 md:tw-grid-cols-2 xl:tw-grid-cols-3 2xl:tw-grid-cols-4;
 }
 
+footer > section {
+  @apply md:tw-grid md:tw-gap-8 lg:tw-gap-16 md:tw-grid-cols-1 md:tw-grid-cols-2 xl:tw-grid-cols-3;
+}
+
 footer li {
   @apply tw-list-disc tw-list-inside;
 }
