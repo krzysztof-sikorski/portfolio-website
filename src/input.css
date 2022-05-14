@@ -19,7 +19,7 @@ a:hover {
 }
 
 a[rel="external"]:after {
-  content: ' ↗';
+  content: ' \002197';
 }
 
 code {
@@ -43,11 +43,11 @@ header > h1, main > h1, footer > h1 {
 }
 
 header p:first-of-type {
-  @apply tw-text-2xl tw-italic;
+  @apply tw-text-lg tw-italic;
 }
 
 header em.name {
-  @apply tw-text-xl;
+  @apply tw-text-lg tw-text-emerald-300;
 }
 
 main > section {
